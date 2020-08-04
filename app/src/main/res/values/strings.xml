@@ -1,0 +1,50 @@
+<resources>
+    <string name="google_maps_API_key">AIzaSyC38CicSELzChHUU4tnP3xduNc5ZC3gsk8</string>
+    <string name="app_name">Overwatch Map</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--Titles-->
+    <string name="sign_up">Registration</string>
+    <string name="report">Report Incident</string>
+    <string name="emergency">Emergency Services</string>
+    <string name="view_incident">Incidents</string>
+    <string name="final_registration">Final Registration</string>
+    <string name="closed">Closed Incidents</string>
+    <string name="progress">In Progress</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+
+    <!--Campus-->
+    <string-array name="campus">
+        <item>South Campus</item>
+        <item>North Campus</item>
+        <item>2nd Ave Campus</item>
+        <item>Missionvale Campus</item>
+    </string-array>
+
+    <!--Tab Names-->
+    <string name="closed_incidents">Closed Incidents</string>
+    <string name="in_progress">In Progress</string>
+    <string name="open_incidents">Opened Incidents</string>
+
+    <string name="register"><u>Register here</u></string>
+    <string name="forgotPassword"><u>Reset Password</u></string>
+    <!--Shared preferences for saving login details-->
+    <string name="checkbox">com.reidius.lawrenceafriyie.overwatchmap.sharedPreferences.checkbox</string>
+    <string name="user">com.reidius.lawrenceafriyie.overwatchmap.sharedPreferences.user</string>
+    <string name="pass">com.reidius.lawrenceafriyie.overwatchmap.sharedPreferences.pass</string>
+
+    <string name="username1">com.reidius.lawrenceafriyie.overwatchmap.sharedPreferences.username1</string>
+
+    <string name="title_activity_incident_tab_view">IncidentTabView</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--About-->
+    <string name="about_info">Project Overwatch is an initiative developed by Team Reidius to help users report witnessed incidents, and to prevent
+        any incident witnessed from escalating. Project Overwatch is a concept that was brought up due to the amount of incidents that have been happening.</string>
+</resources>

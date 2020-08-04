@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/safezone"
+            android:icon="@drawable/ic_skyline"
+            android:title="Safe zone"
+            app:actionLayout="@layout/safe_zone_toggle"/>
+        <item
+            android:id="@+id/hotspot"
+            android:icon="@drawable/ic_danger"
+            android:title="Hotspot"
+            app:actionLayout="@layout/hotspot_toggle"/>
+
+        <item
+            android:id="@+id/emergency_service"
+            android:icon="@drawable/ic_siren"
+            android:title="Emergency Service" />
+
+        <item android:title="Incident Section">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/report_incident"
+                        android:title="Report Incident"
+                        android:icon="@drawable/ic_report_incident"/>
+                    <item
+                        android:id="@+id/view_incident"
+                        android:title="Query Open Incidents"
+                        android:icon="@drawable/ic_view_incident"/>
+                    <item
+                        android:id="@+id/inprogress"
+                        android:title="Query In Progress Incidents"
+                        android:icon="@drawable/ic_in_progress"/>
+                    <item
+                        android:id="@+id/closed"
+                        android:title="Query Closed Incidents"
+                        android:icon="@drawable/ic_closed_incident"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+    <item android:title="End">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/help"
+                    android:icon="@drawable/ic_info"
+                    android:title="About" />
+                <item
+                    android:id="@+id/help_hint"
+                    android:icon="@drawable/ic_help_hint"
+                    android:title="@string/help"
+                    />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>

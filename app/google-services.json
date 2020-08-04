@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "184854003708",
+    "firebase_url": "https://reidiusoverwatch-fed34.firebaseio.com",
+    "project_id": "reidiusoverwatch-fed34",
+    "storage_bucket": "reidiusoverwatch-fed34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184854003708:android:5367b0ff9dd76d8b",
+        "android_client_info": {
+          "package_name": "com.reidius.lawrenceafriyie.overwatchmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184854003708-vo7rvdc0ptrkg7vefodtcl3ack5mgca8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reidius.lawrenceafriyie.overwatchmap",
+            "certificate_hash": "1c29e03c591315275239dd8fd1b38b119041cb2b"
+          }
+        },
+        {
+          "client_id": "184854003708-t64cmu22t0vjk23cjq6ijp5kldhiv1lk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "184854003708-t64cmu22t0vjk23cjq6ijp5kldhiv1lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0zlspRxDUyU4brH2Vi8SJUztnlUpXAr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184854003708-t64cmu22t0vjk23cjq6ijp5kldhiv1lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
